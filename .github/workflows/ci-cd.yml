@@ -21,14 +21,14 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Set Jest permissions
+      run: chmod +x ./node_modules/.bin/jest
+
     - name: Run tests
-      run: npm test
+      run: npx jest
 
     - name: Lint code
       run: npx eslint .
 
     - name: Build Docker image
       run: docker build -t pf-pipeline .
-      
-    - name: Run tests
-      run: npx jest .

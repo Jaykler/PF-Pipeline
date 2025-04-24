@@ -23,7 +23,10 @@ jobs:
 
     - name: Set Jest permissions
       run: chmod +x ./node_modules/.bin/jest
-
+      
+    - name: Set ESLint permissions
+      run: chmod +x ./node_modules/.bin/eslint
+      
     - name: Run tests
       run: npx jest
 

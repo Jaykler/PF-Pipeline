@@ -29,3 +29,6 @@ jobs:
 
     - name: Build Docker image
       run: docker build -t pf-pipeline .
+      
+    - name: Run tests
+      run: npx jest .

@@ -5,7 +5,7 @@ Aplicación web simple con frontend HTML, backend Node.js/Express y un pipeline 
 ## 🚀 Instalación
 
 ```bash
-git clone https://github.com/tuusuario/devops-quiz-app.git
+git clone [https://github.com/tuusuario/devops-quiz-app.git](https://github.com/Jaykler/PF-Pipeline.git)
 cd devops-quiz-app
 npm install
 npm start
